@@ -13,15 +13,19 @@ public class Calculadora {
  a = teclado.next();
  System.out.println("Ingrese el segundo numero");
  a = teclado.next();
- if(opcion.equals(1)){
- resultado = a + b;
- }else if(opcion.equals(2)){
- resultado = a - b;
- }else if(opcion.equals(3)){
- resultado = a * b;
- }else{
- resultado = a / b;
- }
- System.out.println("El resultado es " + resultado.toString());
+ switch (opcion) {
+case opcion=1:
+	resultado = a + b;
+	break;
+case opcion=2:
+	resultado = a - b;
+	break;
+case opcion=3:
+	resultado = a * b;
+	break;
+default:
+	break;
+}
+  System.out.println("El resultado es " + resultado.toString());
  }
 }
