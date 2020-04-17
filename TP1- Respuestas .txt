@@ -5,18 +5,39 @@ opciones, por ejemplo cambiando que el 3 sea para la suma y el 1 para multiplica
 
 5. Realizar un commit y push al repositorio remoto y responder:
 
-¿Qué sucedió cuando se intento hacer el segundo push?
-¿Qué acciones hay que tomar antes de realizar el push?
-¿Qué estrategia propondrían para evitar esta situación?
+Â¿QuÃ© sucediÃ³ cuando se intento hacer el segundo push?
+R: Genera conflictos porque ya exisye otro commit:
+
+                    Alejandro@DESKTOP-TSPHQCJ MINGW64 ~/Desktop/Cursos Practicas/Tp Unlam - Basica II (master)
+                    $ git push origin master
+                    To https://github.com/alejandrodcruz/tp-git-pb2.git
+                     ! [rejected]        master -> master (non-fast-forward)
+                    error: failed to push some refs to 'https://github.com/alejandrodcruz/tp-git-pb2.git'
+                    hint: Updates were rejected because the tip of your current branch is behind
+                    hint: its remote counterpart. Integrate the remote changes (e.g.
+                    hint: 'git pull ...') before pushing again.
+                    hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Â¿QuÃ© acciones hay que tomar antes de realizar el push?
+R: Hay que realizar un PULL
+
+Â¿QuÃ© estrategia propondrÃ­an para evitar esta situaciÃ³n?
+R: Crear ramas o branchs
 
 6. En el repositorio local ejecutar el siguiente comando git checkout -b develop
-¿Qué acción realiza el parámetro -b?
+Â¿QuÃ© acciÃ³n realiza el parÃ¡metro -b?
+R: Crea una nueva rama branch.
+                    Alejandro@DESKTOP-TSPHQCJ MINGW64 ~/Desktop/Cursos Practicas/Tp Unlam - Basica II (master)
+                    $ git checkout -b develop
+                    Switched to a new branch 'develop'
+                    Alejandro@DESKTOP-TSPHQCJ MINGW64 ~/Desktop/Cursos Practicas/Tp Unlam - Basica II (develop)
+                    $
 
 7. Crear ramas utilizando la recientemente creada develop utilizando los nombres de los desarrolladores
 
 8. Modificar los archivos revirtiendo cambios o realizando mejoras, siempre procurando editar los
-métodos y líneas. Ejemplo: separar cada acción (sumar, restar, multiplicar y dividir) en métodos
+mÃ©todos y lÃ­neas. Ejemplo: separar cada acciÃ³n (sumar, restar, multiplicar y dividir) en mÃ©todos
 
 9. Realizar en el repositorio remoto un merge request
-¿Qué diferencias notaron en el proceso?
-¿Qué estrategia utilizarían para evitar conflictos?
+Â¿QuÃ© diferencias notaron en el proceso?
+Â¿QuÃ© estrategia utilizarÃ­an para evitar conflictos?
