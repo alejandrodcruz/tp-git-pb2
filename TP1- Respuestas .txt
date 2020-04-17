@@ -1,0 +1,22 @@
+4. Dividir el grupo en dos y realizar las siguientes acciones
+
+El primer grupo cambiara el if-else por un switch y el segundo grupo cambiara el orden de las
+opciones, por ejemplo cambiando que el 3 sea para la suma y el 1 para multiplicar
+
+5. Realizar un commit y push al repositorio remoto y responder:
+
+¿Qué sucedió cuando se intento hacer el segundo push?
+¿Qué acciones hay que tomar antes de realizar el push?
+¿Qué estrategia propondrían para evitar esta situación?
+
+6. En el repositorio local ejecutar el siguiente comando git checkout -b develop
+¿Qué acción realiza el parámetro -b?
+
+7. Crear ramas utilizando la recientemente creada develop utilizando los nombres de los desarrolladores
+
+8. Modificar los archivos revirtiendo cambios o realizando mejoras, siempre procurando editar los
+métodos y líneas. Ejemplo: separar cada acción (sumar, restar, multiplicar y dividir) en métodos
+
+9. Realizar en el repositorio remoto un merge request
+¿Qué diferencias notaron en el proceso?
+¿Qué estrategia utilizarían para evitar conflictos?
