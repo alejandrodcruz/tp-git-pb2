@@ -39,3 +39,8 @@ métodos y líneas. Ejemplo: separar cada acción (sumar, restar, multiplicar y 
 R: Al realizar el commit en ramas cada desarrollador mantiene sus cambios hasta la unificacion con la rama principal master
 ¿Qué estrategia utilizarían para evitar conflictos?
 R: Que cada desarrollador trabaje en su rama y luego lo fusione con la principal, y cuando ya todo este OK dar un merge y push desde el master.
+
+
+Alumnos:
+	Bringa, Juan.
+	Cruz, Alejandro.
