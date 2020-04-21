@@ -1,4 +1,4 @@
-4. Dividir el grupo en dos y realizar las siguientes acciones
+﻿4. Dividir el grupo en dos y realizar las siguientes acciones
 
 El primer grupo cambiara el if-else por un switch y el segundo grupo cambiara el orden de las
 opciones, por ejemplo cambiando que el 3 sea para la suma y el 1 para multiplicar
@@ -8,7 +8,6 @@ opciones, por ejemplo cambiando que el 3 sea para la suma y el 1 para multiplica
 ¿Qué sucedió cuando se intento hacer el segundo push?
 R: Genera conflictos porque ya exisye otro commit:
 
-                    Alejandro@DESKTOP-TSPHQCJ MINGW64 ~/Desktop/Cursos Practicas/Tp Unlam - Basica II (master)
                     $ git push origin master
                     To https://github.com/alejandrodcruz/tp-git-pb2.git
                      ! [rejected]        master -> master (non-fast-forward)
@@ -27,11 +26,8 @@ R: Crear ramas o branchs
 6. En el repositorio local ejecutar el siguiente comando git checkout -b develop
 ¿Qué acción realiza el parámetro -b?
 R: Crea una nueva rama branch.
-                    Alejandro@DESKTOP-TSPHQCJ MINGW64 ~/Desktop/Cursos Practicas/Tp Unlam - Basica II (master)
                     $ git checkout -b develop
                     Switched to a new branch 'develop'
-                    Alejandro@DESKTOP-TSPHQCJ MINGW64 ~/Desktop/Cursos Practicas/Tp Unlam - Basica II (develop)
-                    $
 
 7. Crear ramas utilizando la recientemente creada develop utilizando los nombres de los desarrolladores
 
@@ -40,4 +36,6 @@ métodos y líneas. Ejemplo: separar cada acción (sumar, restar, multiplicar y 
 
 9. Realizar en el repositorio remoto un merge request
 ¿Qué diferencias notaron en el proceso?
+R: Al realizar el commit en ramas cada desarrollador mantiene sus cambios hasta la unificacion con la rama principal master
 ¿Qué estrategia utilizarían para evitar conflictos?
+R: Que cada desarrollador trabaje en su rama y luego lo fusione con la principal, y cuando ya todo este OK dar un merge y push desde el master.
